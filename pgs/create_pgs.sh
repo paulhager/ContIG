@@ -9,7 +9,7 @@ mkdir $OUT_DIR
 
 PGEN_MERGED=$DST_PTH/ukb_imp_allchr
 # TODO: update PGS ID numbers if you have more
-for i in {000001..000920}; do
+for i in {000001..000001}; do
     PGS_FN=pgs_data/PGS${i}/ScoringFiles/PGS${i}.txt.gz
     echo "starting PGS${i}"
     if test -f "$PGS_FN"; then
